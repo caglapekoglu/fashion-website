@@ -1,0 +1,134 @@
+body{
+    font-family: 'Raleway', sans-serif;
+
+    background-image:url(images/bgimage.svg);
+    background-repeat: no-repeat;
+}
+header{
+    margin-top: 0;
+    background-color: rgb(250, 227, 182);
+    text-align: center;
+    padding: 10px;
+}
+
+.navbar{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+a{
+    margin-right: 15px;
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: magenta;
+}
+.store-name{
+    font-weight: 500;
+    font-size: 40px;
+    color: black;
+    text-decoration: none;
+}
+.definition{
+    margin-right: 50px;
+}
+nav{
+    display: flex;
+    margin: 10px 150px;
+}
+.titles{
+    font-size: 65px; 
+    font-weight: bold
+}
+.comment{
+    font-size: 25px; font-weight: 300;
+}
+.shop-button{
+    font-size: 16px;
+    color: aliceblue;
+    background-color: black;
+    padding: 20px 50px;
+    border-radius: 10px;
+    border: none;
+}
+
+.new-collection{
+    margin-top: 450px;
+    text-align: center;
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+}
+.collection-card{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 349px;
+    height: 402px;
+}
+.sweater{
+    background-image: url(images/sweater.svg);
+    background-repeat: no-repeat;
+}
+.jeans{
+    background-image: url(images/jeans.svg);
+    background-repeat: no-repeat;
+}
+.baskets{
+    background-image: url(images/baskets.svg);
+    background-repeat: no-repeat;
+}
+.card-button{
+    margin: 0 0 45px 0;
+    padding: 10px 108px;
+    border-radius: 20px;
+    border: none;
+}
+.best-fashion{
+    margin:250px 150px;
+    display: flex;
+    justify-content: space-around;
+}
+.table-div{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    background: rgb(205,137,34);
+background: linear-gradient(90deg, rgba(205,137,34,1) 0%, rgba(233,164,59,1) 35%, rgba(255,184,79,1) 100%);
+    border-radius: 20px;
+
+}
+.table1{
+    border-right: 1px solid black; 
+    padding: 0 35px;
+    margin:15px 0;
+}
+.table2{
+    border-right: 1px solid black; 
+    padding: 0 35px;
+    margin:15px 0;
+}
+.table3{
+    padding: 0 35px;
+    margin:15px 0;
+}
+.article-fashion{
+    margin-left: 100px;
+}
+footer{
+    background-color: rgb(250, 227, 182);
+    text-align: center;
+    padding: 30px 30px;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.footer-part{
+    display: grid;
+}

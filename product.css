@@ -1,0 +1,109 @@
+body{
+    font-family: 'Raleway', sans-serif;
+
+}
+header{
+    margin-top: 0;
+    background-color: rgb(250, 227, 182);
+    text-align: center;
+    padding: 10px;
+}
+
+.navbar{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+a{
+    margin-right: 15px;
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: magenta;
+}
+.store-name{
+    font-weight: 500;
+    font-size: 40px;
+    color: black;
+    text-decoration: none;
+}
+.products{
+    display: grid;
+    grid-template-rows: 1fr 1fr ;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 15px;
+    margin: 35px;
+}
+.product{
+    width: 20%;
+}
+.star{
+    display: flex;
+}
+.price{
+    display: flex;
+}
+.oldprice{
+    color: #C4C4C4;
+    margin-right: 15px;
+}
+.article{
+    display: flex;
+    background-color: rgb(250, 227, 182);
+    border-radius: 20px;
+    padding: 70px;
+    margin: 70px;
+}
+.titles{
+    font-size: 65px; 
+    font-weight: bold
+}
+.comment{
+    font-size: 25px; font-weight: 300;
+}
+.square{
+    background-color: aliceblue;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    align-items: center;
+    margin-right: 20px;
+}
+.shop-button{
+    font-size: 16px;
+    color: aliceblue;
+    background-color: black;
+    padding: 20px 50px;
+    border-radius: 10px;
+    border: none;
+}
+.cards{
+    margin: 50px;
+    display: flex;
+    overflow-x:scroll;
+    margin-bottom: 50px;
+}
+.card{
+    text-align: center;
+    background-color: rgb(250, 227, 182);
+    padding: 30px;
+    margin-right: 20px;
+    width: 715px;
+    
+}
+footer{
+    background-color: rgb(250, 227, 182);
+    text-align: center;
+    padding: 30px 30px;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.footer-part{
+    display: grid;
+}
